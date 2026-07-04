@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeshwanth Gurram - Senior Technical Writer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">YG</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <span id="themeIcon">🌙</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Yeshwanth Gurram</h1>
+                <p class="tagline">Senior Technical Writer | Release Notes | Docs as Code | API Documentation | DDLC | SDLC & Agile Expert</p>
+                <p class="intro">6 years of expertise in product documentation across Energy Management, Manufacturing, Infrastructure, Automobile, and IT industries. Delivering high-quality technical documents on time with proven industry experience.</p>
+                <div class="hero-buttons">
+                    <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2>What I Do</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h3>Technical Documentation</h3>
+                    <p>Create comprehensive guides, API docs, and user manuals that are clear and user-friendly across multiple industries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Docs as Code</h3>
+                    <p>Implement modern documentation practices using version control, Markdown, and automated build systems for scalable documentation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Release Notes & SDLC</h3>
+                    <p>Create clear release notes and documentation aligned with SDLC, Agile, and DDLC methodologies for seamless software delivery.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>API Documentation</h3>
+                    <p>Develop comprehensive API documentation with examples, endpoints, and integration guides for developer audiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Work Section -->
+    <section class="recent-work">
+        <div class="container">
+            <h2>Recent Projects</h2>
+            <div class="work-grid">
+                <div class="work-card">
+                    <h3>Energy Management Systems</h3>
+                    <p>Comprehensive product documentation for energy management solutions covering system architecture, configuration, and user guides.</p>
+                    <a href="portfolio.html" class="link">View Project →</a>
+                </div>
+                <div class="work-card">
+                    <h3>Manufacturing Process Documentation</h3>
+                    <p>Technical documentation for manufacturing platforms including operational procedures, API references, and troubleshooting guides.</p>
+                    <a href="portfolio.html" class="link">View Project →</a>
+                </div>
+                <div class="work-card">
+                    <h3>Infrastructure & Automation Guides</h3>
+                    <p>Detailed documentation for infrastructure solutions with deployment guides, configuration references, and best practices.</p>
+                    <a href="portfolio.html" class="link">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Have a project you'd like me to work on? Feel free to reach out!</p>
+            <div class="contact-links">
+                <a href="mailto:yeshwanthgurram73@gmail.com" class="btn btn-primary">Send Email</a>
+                <a href="https://www.linkedin.com/in/yeshwanth-gurram-737a08143/" class="social-link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yeshwanthgurram73" class="social-link" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yeshwanth Gurram. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Dark Mode Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const html = document.documentElement;
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            html.classList.add('dark-mode');
+            themeIcon.textContent = '☀️';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark-mode');
+            const theme = html.classList.contains('dark-mode') ? 'dark' : 'light';
+            localStorage.setItem('theme', theme);
+            themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        });
+
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.navbar')) {
+                hamburger.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

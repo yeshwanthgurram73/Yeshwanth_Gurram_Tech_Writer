@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Yeshwanth Gurram</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .portfolio-section {
+            padding: 80px 20px;
+        }
+
+        .portfolio-section h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .portfolio-item {
+            background: var(--light-bg);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .portfolio-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 2rem;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .portfolio-header h3 {
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .portfolio-tag {
+            display: inline-block;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .portfolio-content {
+            padding: 1.5rem;
+        }
+
+        .portfolio-content p {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-link {
+            display: inline-block;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        .portfolio-link:hover {
+            color: var(--accent-color);
+        }
+
+        .skills-section {
+            background: var(--light-bg);
+            padding: 3rem 2rem;
+            border-radius: 8px;
+            margin-top: 3rem;
+        }
+
+        .skills-section h2 {
+            margin-bottom: 2rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-category {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .skill-category h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category li {
+            padding: 0.5rem 0;
+            color: var(--text-light);
+        }
+
+        .skill-category li:before {
+            content: "✓ ";
+            color: var(--accent-color);
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">YG</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio-section">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p style="text-align: center; color: var(--text-light); margin-bottom: 3rem; font-size: 1.1rem;">
+                6 years of technical writing expertise across Energy, Manufacturing, Infrastructure, Automobile, and IT industries
+            </p>
+
+            <div class="portfolio-grid">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Energy Management Systems</h3>
+                        <span class="portfolio-tag">Product Docs</span>
+                        <span class="portfolio-tag">SDLC</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>Comprehensive technical documentation for energy management platforms, including system architecture, configuration guides, and operational procedures for enterprise clients.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Manufacturing Process Documentation</h3>
+                        <span class="portfolio-tag">API Docs</span>
+                        <span class="portfolio-tag">User Guides</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>End-to-end documentation for manufacturing solutions including API references, integration guides, troubleshooting procedures, and operational manuals for technical teams.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Release Notes & Version Updates</h3>
+                        <span class="portfolio-tag">Release Notes</span>
+                        <span class="portfolio-tag">DDLC</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>Professional release notes documenting new features, enhancements, and bug fixes with clear migration paths and breaking changes across multiple product releases.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Infrastructure & Automation Guides</h3>
+                        <span class="portfolio-tag">Technical Guides</span>
+                        <span class="portfolio-tag">Best Practices</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>Detailed deployment guides, configuration references, and automation procedures for infrastructure solutions with step-by-step instructions and best practices documentation.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Automobile Industry Documentation</h3>
+                        <span class="portfolio-tag">Industry-Specific</span>
+                        <span class="portfolio-tag">Compliance</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>Specialized technical documentation for automotive industry including compliance requirements, system specifications, and maintenance procedures aligned with industry standards.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-header">
+                        <h3>Docs as Code Implementation</h3>
+                        <span class="portfolio-tag">Markdown</span>
+                        <span class="portfolio-tag">Git/Version Control</span>
+                    </div>
+                    <div class="portfolio-content">
+                        <p>Implementation of Docs as Code practices using Markdown, Git, and automated build systems for scalable, version-controlled technical documentation workflows.</p>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h2>My Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Documentation Types</h3>
+                        <ul>
+                            <li>API Documentation</li>
+                            <li>User Guides & Manuals</li>
+                            <li>Release Notes</li>
+                            <li>Technical Specifications</li>
+                            <li>Integration Guides</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Tools & Platforms</h3>
+                        <ul>
+                            <li>Markdown & Docs as Code</li>
+                            <li>Git/Version Control</li>
+                            <li>Swagger/OpenAPI</li>
+                            <li>Confluence & Wiki</li>
+                            <li>Sphinx & Static Generators</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Technical Knowledge</h3>
+                        <ul>
+                            <li>REST APIs</li>
+                            <li>Enterprise Systems</li>
+                            <li>Cloud Infrastructure</li>
+                            <li>Database Systems</li>
+                            <li>DevOps Concepts</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Methodologies</h3>
+                        <ul>
+                            <li>SDLC & Agile</li>
+                            <li>DDLC (Documentation Development)</li>
+                            <li>Technical Writing</li>
+                            <li>Content Strategy</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Industry Experience</h3>
+                        <ul>
+                            <li>Energy Management</li>
+                            <li>Manufacturing</li>
+                            <li>Infrastructure</li>
+                            <li>Automobile</li>
+                            <li>Information Technology</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Technical Communication</li>
+                            <li>Content Strategy</li>
+                            <li>Collaborative Writing</li>
+                            <li>Editing & Proofreading</li>
+                            <li>Stakeholder Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Yeshwanth Gurram. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

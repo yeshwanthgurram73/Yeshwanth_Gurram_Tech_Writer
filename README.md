@@ -1,155 +1,74 @@
-# Yeshwanth Gurram - Tech Writer
+I am a Senior Technical Writer with over 6 years of experience in product documentation, with a proven track record of delivering high-quality documentation on time. Throughout my career, I have worked across diverse industries, including Energy Management, Manufacturing, Infrastructure, Automobile, and Information Technology, allowing me to develop a broad understanding of complex products and technologies.
 
-6 years of work experience in product documentation with a proven record of delivering documents on time. Domain experience includes Energy Management, Manufacturing, Infrastructure, Automobile and Information Technology industries.
+I specialize in creating, maintaining, and publishing user-centric documentation that enables customers and stakeholders to effectively understand and use products and solutions. My expertise includes developing User Guides, Release Notes, API Documentation, Functional Highlights, Operational Guides, Configuration Guides, Installation Manuals, Service Manuals, Specification Manuals, Cybersecurity Guides, Online Help, Mobile Help, Troubleshooting Guides, and Special Instruction Manuals.
 
-## Features
+In my current and previous roles, I have been responsible for drafting Release Notes for new software versions, ensuring that feature enhancements, bug fixes, and product updates are communicated clearly and accurately. I regularly update User Guides, validate API collections, and maintain API documentation, Functional Highlights, TLog, PosLog, and Operational Guides to reflect the latest product capabilities.
 
-✨ **Modern Design**
-- Responsive and mobile-friendly layout
-- Clean, professional aesthetic
-- Smooth animations and transitions
+I actively participate in Agile development processes, including Sprint Planning, Elaboration Meetings, Acceptance Testing (AT) Meetings, Demo Sessions, and Release Planning activities. By collaborating closely with Product Managers, Software Developers, QA Engineers, Designers, and Subject Matter Experts (SMEs), I gather accurate technical information and transform complex concepts into clear, concise, and user-friendly documentation.
 
-📄 **Multiple Pages**
-- **Home** - Landing page with hero section and key highlights
-- **Portfolio** - Showcase of technical writing projects with skills breakdown
-- **About** - Professional background, experience timeline, and core values
-- **Contact** - Easy ways to get in touch
+My experience includes working with both the Document Development Life Cycle (DDLC) and the Software Development Life Cycle (SDLC). I have successfully managed documentation deliverables alongside development sprints, ensuring alignment with project goals, release schedules, and organizational standards. I continuously contribute to improving documentation processes, establishing best practices, and maintaining compliance with company style guides.
 
-🎨 **Custom Styling**
-- Gradient backgrounds
-- Hover effects
-- Feature cards and portfolio display
-- Mobile-optimized navigation
+I am skilled in single sourcing, structured authoring, topic-based writing, and DITA methodologies. I have extensive experience managing multilingual documentation by exporting translation XML packages and coordinating with translation vendors to localize content into multiple languages, including Chinese, French, and English.
 
-## Pages Overview
+Throughout my career, I have collaborated with engineers, product managers, designers, support teams, and upper management to create high-quality documentation and user assistance materials that help customers succeed. I am a self-driven professional, an effective communicator, and a passionate advocate of technology who enjoys solving complex documentation challenges.
 
-### index.html
-The landing page featuring:
-- Navigation bar
-- Hero section with call-to-action buttons
-- Services overview with feature cards
-- Recent projects showcase
-- Contact section
-- Footer
+I have also been involved in strategic initiatives to modernize and re-platform large-scale documentation systems. My responsibilities have included managing both pre-sales and post-sales content such as:
 
-### portfolio.html
-Portfolio showcase with:
-- Grid layout of portfolio items
-- Skills and expertise categorized
-- Project descriptions and links
-- Responsive design
+* User Guides
+* How-to Videos
+* Product Images
+* CAD Models
+* Catalogs
+* Release Notes
+* Online Help Systems
+* Installation and Service Manuals
+* Technical Specifications
 
-### about.html
-Personal information page including:
-- About me section
-- Professional timeline
-- Core values display
-- Call-to-action for collaboration
+My expertise extends to identifying documentation requirements, planning content strategies, designing documentation architectures, developing content, and publishing deliverables across multiple platforms.
 
-### style.css
-Complete stylesheet with:
-- CSS variables for consistent theming
-- Flexbox and Grid layouts
-- Responsive design breakpoints
-- Animations and transitions
-- Mobile-first approach
+During my experience supporting Caterpillar products and applications, I collaborated with business development managers, software engineers, support teams, and subject matter experts to design, develop, and manage technical documentation. I contributed to projects involving Caterpillar engines, MineStar™, and Product Link™ software solutions.
 
-## Color Scheme
+In these roles, I created and maintained:
 
-- **Primary**: #0066cc (Blue)
-- **Secondary**: #1a1a1a (Dark Gray)
-- **Accent**: #ff6b35 (Orange)
-- **Light Background**: #f8f9fa (Light Gray)
-- **Text**: #333333 (Dark), #666666 (Medium)
+* User Guides
+* Specification Manuals
+* Assembly and Disassembly Guides
+* System Operation Manuals
+* Installation Guides
+* Troubleshooting Manuals
+* Testing and Adjusting Guides
+* Release Notes
+* Special Instruction Manuals
 
-## Getting Started
+I also assisted in resolving customer issues through the ServiceNow CRM platform by collaborating with support teams and updating documentation based on customer feedback and real-world usage scenarios.
 
-1. **View Locally**: Open `index.html` in your web browser
-2. **Deploy to GitHub Pages**: 
-   - Go to repository Settings → Pages
-   - Select "main" branch as source
-   - Your site will be available at `https://yeshwanthgurram73.github.io/Yeshwanth_Gurram_Tech_Writer`
+My technical toolset includes:
 
-## Customization
+* Arbortext Editor
+* Canvas X
+* Creo Illustrate
+* Creo Parametric
+* DITA-based authoring environments
+* API documentation platforms
+* XML-based publishing systems
 
-### Update Personal Information
-- Replace placeholder text with your actual content
-- Update email in the contact section
-- Add your social media links
-- Update company/project names
+Additionally, I have extensive experience creating graphics, illustrations, and structured content to support technical documentation initiatives.
 
-### Modify Colors
-Edit the CSS variables in `style.css`:
-```css
-:root {
-    --primary-color: #0066cc;
-    --secondary-color: #1a1a1a;
-    --accent-color: #ff6b35;
-    /* ... other colors ... */
-}
-```
+I am highly experienced in API documentation and have developed comprehensive API guides that detail functionality, endpoints, request and response formats, parameters, authentication methods, error codes, and practical usage examples. By working closely with development teams, I ensure API documentation remains accurate, complete, and aligned with product updates.
 
-### Add Portfolio Items
-Edit `portfolio.html` and duplicate the `.portfolio-item` section:
-```html
-<div class="portfolio-item">
-    <div class="portfolio-header">
-        <h3>Your Project Title</h3>
-        <span class="portfolio-tag">Tag1</span>
-    </div>
-    <div class="portfolio-content">
-        <p>Your project description</p>
-        <a href="#" class="portfolio-link">View Project →</a>
-    </div>
-</div>
-```
+My strengths include:
 
-## Browser Support
+* Technical Documentation
+* API Documentation
+* Agile Documentation Practices
+* Single Sourcing
+* Structured Authoring (DITA)
+* Release Notes Development
+* User Assistance Content
+* Cross-functional Collaboration
+* Content Strategy and Planning
+* Documentation Process Improvement
+* Translation and Localization Management
+* Customer-focused Communication
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
-
-## Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px to 1199px
-- **Mobile**: Below 768px
-- **Small Mobile**: Below 480px
-
-## File Structure
-
-```
-.
-├── index.html          # Home page
-├── portfolio.html      # Portfolio page
-├── about.html          # About page
-├── style.css           # Main stylesheet
-└── README.md          # This file
-```
-
-## Tips for Best Results
-
-1. **Update Email Link**: Change `your.email@example.com` to your actual email
-2. **Add Social Links**: Update LinkedIn, GitHub, and Twitter URLs
-3. **Customize Portfolio**: Replace placeholder projects with your actual work
-4. **Add Photos**: Consider adding a profile photo in the about section
-5. **SEO**: Update meta descriptions and titles for better search visibility
-
-## License
-
-Free to use and modify for your personal portfolio.
-
-## Next Steps
-
-1. Customize all text with your actual information
-2. Add your contact email and social media links
-3. Update portfolio items with your real projects
-4. Deploy to GitHub Pages
-5. Share your portfolio link!
-
----
-
-**Created**: July 2026 | **Portfolio Website**: Technical Writer Showcase
+I pride myself on understanding complex technologies and simplifying them into clear, concise, and actionable information while always keeping the end user’s needs and experience at the center of my work.

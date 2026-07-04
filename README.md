@@ -1,6 +1,6 @@
-# Yeshwanth Gurram - Tech Writer Portfolio Website
+# Yeshwanth Gurram - Tech Writer
 
-A professional portfolio website for showcasing technical writing work, documentation expertise, and professional experience.
+6 years of work experience in product documentation with a proven record of delivering documents on time. Domain experience includes Energy Management, Manufacturing, Infrastructure, Automobile and Information Technology industries.
 
 ## Features
 
